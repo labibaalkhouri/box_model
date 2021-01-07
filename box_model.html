@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model 📦</title>
+    <style>
+        main{
+            /* slik legger man til kommenter i css */
+
+            display: flex;
+flex-wrap: wrap;
+            /*flex brukes til å plassere innhold  */
+            /* flex-wrap: wrap;/flex-warb brukes til å pakke innholdet 
+            der hvor er plass dyttes ting opp 
+            og der det ikke er plass dyttes ting ned */
+            /* brukes for sentrere innhold */
+            justify-content: center;
+            align-items: center;
+            
+
+            margin: 40px;
+            padding:20px;
+
+            background-color:rgba(124, 15, 15, 0.2)
+        }
+
+        div{
+            max-width: 300px;
+
+            margin: 40px;
+            padding:20px;
+
+            border:lightseagreen solid 10px;
+
+            background-color: rgba(242, 255, 224, 0.767);
+        }
+        .artur{background-color:lightsalmon ; 
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <main> 
+        <div>
+        <h2>Padding</h2>
+        <p>Du har kanskje lagt merke til at noen ganger så har du godt med rom rundt teksten, f.eks. på en button/knapp - mens andre ganger så virker det som om teksten neste ikke får plass på knappen i det hele tatt. Det er padding som bestemmer mellomrommet i boksen.
+        </p>
+    </div> 
+   
+    <div>
+        <h2>Margin</h2>
+        <p> margin : topp, høyre, bunn, venstre (eks margin: 25 px 50 px 100 px 50 px)
+            margin: topp/bunn høyre/venstre (eks margin: 25 px 50 px)
+            margin: topp høyre/venstre bunn (eks margin: 25 px 50 px 25 px)
+            margin: topp/høyre/venstre/bunn (alle sider har samme verdier)
+            
+        </p>
+    </div> 
+    
+    <div>
+        <h2>Border</h2>
+        <p>Border er en ramme rundt elementens innhold. Denne kan ha forskjellige farger, linjetyper og tykkelse.
+        </p>
+    </div> 
+    
+    <div>
+        <h2>Generell forklaring på boksmodellen</h2>
+        <p>Boksmodellen består av innhold, padding, border og margin. Innhold kan være tekst, bilder eller annet.
+        </p>
+    </div> 
+    <div>
+        <h2>Hva en selector er i CSS</h2>
+        <p>Selector (Velger på norsk) bruker du for å velge et spesifikt objekt du har lyst til å “style”, med dette kan du velge farge, størrelse osv.
+        </p>
+    </div> 
+
+   
+    <div>
+        <h2>Hva en attribute er i CSS</h2>
+        <p>Attribute er de bestemte kodene du bruker for å endre spesifikke ting, som f.eks, 
+            Background-color: yellow;
+            
+        </p>
+    </div> 
+    
+    
+    <div>
+        <h2>Hva en value er i CSS</h2>
+        <p>Verdiene lagres i variabler. I matematikk og dataprogrammering er en variabel en navngitt dataenhet som kan tildeles en verdi. Verdien, uansett hva den måtte være, kan refereres til med det navnet.
+
+
+        </p>
+    </div> 
+
+    <div>
+        <h2>Hva (p) taggen brukes til  </h2>
+        <p>Når du skriver i HTML, er <p> -koden et blokkelement som brukes til å betegne et avsnitt. Det er nyttig fordi nettlesere legger til litt margin før etter hvert element
+        </p>
+    </div> 
+    
+    <div>
+        <h2>Hva (h1) taggen brukes til  </h2>
+        <p>Når du skriver i HTML, er (h1) til (h6) -kodene blokkeringselementer som brukes til å betegne overskrifter av både forskjellige størrelser og betydning. For eksempel er h1-overskriften den viktigste og h6, den minst viktige.
+
+        </p>
+    </div> 
+
+        <div>
+            <h2>hvordan Kommenterer man i HTML? </h2>
+            <p>kan du dokumenter og kommentere i HTML . Det gjør du ved å bruke <! kommentar > - som vist i bildet under. Da vil det som står i vinkel parentesen ikke synes på nettsiden.
+
+            </p>
+        </div>
+        
+        <div>
+            <h2>Hvordan kommenterer man i CSS? </h2>
+            <p>kan man kommentere i css . Det gjøres ved å starte med /* og avslutte med */. Legg merke til at det ikke er alle steder du kan kommentere. Det må ligge i området hvor du definerer CSS - mellom style-elementene.
+
+            </p>
+        </div> 
+
+        <div>
+            <h2>Hvordan skrive man linker? </h2>
+            <p> For å legge til lenker bruker man koden <a href=“”></a>, og skriver inn http:// + link mellom anførselstegnene, f.eks. <a href=“https://youtube.com”></a>. I mellom start “a href=“”> og slutt </a>, kan man legge til tekst som linken er knyttet til.
+            </p>
+        </div> 
+
+        <div>
+            <h2>Hvordan legger man til bilder? </h2>
+            <p> For å legge til bilder bruker man koden <img src=“” alt=“”>. Deretter skriver man ./filnavn i mellom “”. “Alt” står for alternative text, som brukes til å forklare hva bildet er dersom det skjer noe feil.
+
+            </p>
+        </div>
+        
+        <div>
+            <h2>Hvordan legger man til bakgrunnsfarge?</h2>
+            <p>Man endrer bakgrunnsfarge i CSS ved å spesifisere objektet med “objekt”{background-color: yellow;} 
+            </p>
+        </div> 
+
+
+
+        
+        
+        <div>
+            <h2>Hva brukes main i HTML til?</h2>
+            <p>Main brukes til å legge elementer som er unike for sidene, områder som ikke er unike (som sidebars) bør holdes utenfor, men innenfor “body” 
+
+
+            </p>
+        </div>
+
+       
+        <div>
+            <h2>Hvordan skriver man farge med HEX verdi?</h2>
+            <p>En heksadesimal farge er spesifisert med: #RRGGBB. RR (rød), GG (grønn) og BB (blå) er heksadesimale heltall mellom 00 og FF som spesifiserer intensiteten til fargen.
+
+            </p>
+        </div>
+       
+       
+        <div>
+            <h2>Hvordan skriver man farge med rgb-verdi?</h2>
+            <p>En RGB-fargeverdi er spesifisert med: rgb (rød, grønn, blå). Hver parameter (rød, grønn og blå) definerer intensiteten til fargen som et helt tall mellom 0 og 255.
+
+            </p>
+        </div>
+        <div>
+            <h2>Hva brukes flexbox i CSS til?</h2>
+            <p>Flexible Box Layout Module, gjør det enklere å designe fleksibel responsiv layoutstruktur uten å bruke flyt eller posisjonering.
+
+            </p>
+        </div>
+
+
+    
+
+    </main>
+    
+</body>
+</html>
